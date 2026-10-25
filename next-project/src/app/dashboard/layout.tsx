@@ -1,5 +1,5 @@
 
-export default function DashLayout({ children }: LayoutProps<"/">) {
+export default function DashLayout({ children }: LayoutProps<"/dashboard">) {
     return (
         <div className="min-h-full flex flex-col">
             <h1>Dashboard Layout</h1>
